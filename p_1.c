@@ -21,10 +21,12 @@ void input() {
     /*qitaの記事を参考に。
     出典先:https://qiita.com/softnakikaiya/items/39b74e370acfc22db548
     */
+
         char string1[10];
         char string2[10];
         char string3[10];
 
+        printf("%s", "最初の文字を入れてください:");
         scanf_s("%s", string1, 10);    /*書き方1:abcdefghijklmnと入力する*/
         scanf_s("%s", string2,10);      /*書き方2:abcと入力する*/
         scanf_s("%5s", string3, 10);    /*書き方3:abcdefghijklmnと入力する*/
